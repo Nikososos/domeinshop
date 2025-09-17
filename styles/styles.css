@@ -23,6 +23,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+input,
+button {
+    font-family: inherit;
+}
+
 
 
 /*////////////////////////
