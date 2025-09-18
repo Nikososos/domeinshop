@@ -65,7 +65,15 @@ header {
 
 h1 {
     font-size: 130px;
+    margin-bottom: 40px;
 }
+
+header p {
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+    
 
 
 
