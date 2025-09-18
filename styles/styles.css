@@ -18,10 +18,11 @@ Table of Contents:
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-h1 {
+h1, h2, p {
     color: #1C2B32;
-    font-size: 92px;
 }
+
+
 
 
 
@@ -49,16 +50,21 @@ button {
 header {
     background-image: url("/assets/images/mountains.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
 }
 
 .titel {
     margin-left: 25%;
     margin-right: 25%;
-    padding-top: 9%;
-    padding-bottom: 8%;
+    padding-top: 25px;
     max-width: 1000px;
-    height: 600px;
     text-align: center;
+}
+
+h1 {
+    font-size: 130px;
 }
 
 
