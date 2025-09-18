@@ -70,13 +70,28 @@ h1 {
 
 header p {
     margin-bottom: 40px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
-    
+.domein-input {
+    width: 220px;
+    margin: -5px;
+    padding: 20px 80px 20px 20px;
+    background-color: transparent;
+    border: 2px solid #1C2B32;
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    outline: none;
+}
 
+.domein-input::placeholder {
+    color: #1C2B32;
+    font-size: 15px;
+}
 
-
+.domein-input:focus::placeholder {
+    color:transparent;
+}
 /*///////////// 3.2 Testimonial /////////////*/
 
 
