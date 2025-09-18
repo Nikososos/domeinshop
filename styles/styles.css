@@ -92,6 +92,16 @@ header p {
 .domein-input:focus::placeholder {
     color:transparent;
 }
+
+.check-beschikbaarheid {
+    padding: 20px 40px;
+    background-color:#1C2B32;
+    border: 2px solid #1C2B32;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    color: white;
+}
+
 /*///////////// 3.2 Testimonial /////////////*/
 
 
