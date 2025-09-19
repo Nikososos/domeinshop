@@ -23,6 +23,12 @@ h1, h2, p {
     text-align: center;
 }
 
+main {
+    max-width: 1000px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 
 
 
