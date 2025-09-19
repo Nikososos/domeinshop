@@ -18,6 +18,14 @@ Table of Contents:
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
+* {
+    margin-bottom: 40px;
+}
+
+section {
+    margin-bottom: 0px;
+}
+
 h1, h2, p {
     color: #1C2B32;
     text-align: center;
@@ -27,6 +35,7 @@ main {
     max-width: 1000px;
     margin-left: 25%;
     margin-right: 25%;
+    border: solid 1px black;
 }
 
 h2 {
@@ -62,6 +71,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     height: 800px;
+    margin-bottom: 0px;
 }
 
 .titel {
@@ -74,11 +84,9 @@ header {
 
 h1 {
     font-size: 130px;
-    margin-bottom: 40px;
 }
 
 header p {
-    margin-bottom: 40px;
     font-size: 20px;
 }
 
@@ -116,10 +124,33 @@ header p {
 
 
 /*///////////// 3.3 Support /////////////*/
+.support figure {
+    margin-bottom: 0px;
+}
+
 img {
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
+
+.support p {
+    text-align: start;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    font-size: small;
+}
+
+.neem-contact {
+    margin-left: 40px;
+    background-color:#1C2B32;
+    border: 2px solid #1C2B32;
+    border-radius: 9999px;
+    padding: 20px 30px;
+    color: white;
+}
+
+
 
 
 /*///////////// 3.4 Faq /////////////*/
