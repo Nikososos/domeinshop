@@ -29,6 +29,10 @@ main {
     margin-right: 25%;
 }
 
+h2 {
+    margin: 80px;
+}
+
 
 
 
@@ -112,7 +116,10 @@ header p {
 
 
 /*///////////// 3.3 Support /////////////*/
-
+img {
+    width: 100%;
+    border-radius: 10px;
+}
 
 
 /*///////////// 3.4 Faq /////////////*/
