@@ -20,6 +20,7 @@ Table of Contents:
 ////////////////////////*/
 h1, h2, p {
     color: #1C2B32;
+    text-align: center;
 }
 
 
@@ -38,8 +39,6 @@ input,
 button {
     font-family: inherit;
 }
-
-
 /*////////////////////////
     3. Areas
 ////////////////////////*/
