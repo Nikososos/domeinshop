@@ -20,6 +20,8 @@ Table of Contents:
 ////////////////////////*/
 * {
     margin-bottom: 40px;
+    color:#1C2B32;
+    font-size: 18px;
 }
 
 section {
@@ -27,7 +29,6 @@ section {
 }
 
 h1, h2, p {
-    color: #1C2B32;
     text-align: center;
 }
 
@@ -40,6 +41,7 @@ main {
 
 h2 {
     margin: 80px;
+    font-size: 36px;
 }
 
 a {
@@ -118,12 +120,13 @@ header p {
 }
 
 .check-beschikbaarheid {
-    padding: 20px 40px;
+    padding: 22px 30px;
     background-color:#1C2B32;
     border: 2px solid #1C2B32;
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px;
     color: white;
+    font-size: 15px;
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
@@ -138,14 +141,18 @@ header p {
 img {
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .support p {
     text-align: start;
     margin-left: 40px;
-    margin-bottom: 15px;
-    font-size: small;
+    margin-bottom: 20px;
+}
+
+.support p,
+.support a {
+    font-size: 14px;
 }
 
 .neem-contact {
@@ -155,12 +162,29 @@ img {
     border-radius: 9999px;
     padding: 20px 30px;
     color: white;
+    font-size: 15px;
 }
 
 
 
 
 /*///////////// 3.4 Faq /////////////*/
+
+details p {
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color:#899CA0;
+    color:white;
+    border: solid 1px #899CA0;
+    border-radius: 10px;
+    text-align: start;
+    padding: 25px;
+}
+
+summary {
+    margin-left: 40px;
+    cursor: pointer;
+}
 
 
 
